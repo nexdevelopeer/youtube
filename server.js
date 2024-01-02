@@ -192,14 +192,14 @@ app.get('/youtube-analytics', (req, res) => {
   })
     
   youtubeAnalytics.reports.query({
-      dimensions: 'video',
+      dimensions: 'video,asset,country',
       sort:'day',
       startDate: '2023-11-01',
       endDate: '2023-11-30', 
       // filters: 'claimedStatus==claimed',
       ids: `contentOwner==${ownerID}`,
       // includeHistoricalChannelData: true,
-      metrics: 'views,estimatedRevenue,estimatedAdRevenue,estimatedRedPartnerRevenue',
+      metrics: 'views,estimatedPartnerAdSenseRevenue,estimatedPartnerDoubleClickRevenue,grossRevenue,subscribersGained,earnings,adEarnings',
     }).then((data) =>{
           console.log("---------------------------------------------------------------------------------------------------");
           console.log(data.data);
