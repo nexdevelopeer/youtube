@@ -11,7 +11,7 @@ let refreshToken = '1//0gd9M2-SeZIbdCgYIARAAGBASNwF-L9IrLyGrZFrYFhGgZfmFruhxCNyB
 const ownerID = "Jgrl-IYF1196ZxijRcZLXQ"
 const CLIENT_ID = '327277406160-7oddheciuo5m459o6cfqqobf7cclhnmp.apps.googleusercontent.com'
 const CLIENT_SECRET = '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'
-const REDIRECT_URL = 'https://yt-data.onrender.com/oauth2callback'
+const REDIRECT_URL = 'https://yt-mzcu.onrender.com/oauth2callback'
 
 // let baseURL = "https://www.googleapis.com/youtube/partner/v1/"
 
